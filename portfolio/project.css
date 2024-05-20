@@ -1,0 +1,218 @@
+/* Header starts */
+.header{
+    background-color: rgba(145, 145, 138, 0.842);
+    top: 0%;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding-left: 140px;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+}
+@media(max-width: 310px){
+   nav a{
+    padding-left: 25px;
+   }
+}
+/* header ends */
+/* home starts */
+.home
+{
+    height: 600px;
+    background-image: linear-gradient(rgba(206, 195, 195,0.1),rgb(241, 201, 201,0.1)),url("./home bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.homediv
+{
+    color: white;
+    padding-left: 48%;
+    padding-top: 22%;
+    
+}
+.homediv h1
+{
+    font-size: 50px;
+}
+.homediv p
+{
+    font-size: 25px;
+}
+@media (max-width: 310px) {
+    .home
+    {
+        height: 500px;
+        background-image: linear-gradient(rgba(206, 195, 195,0.1),rgb(241, 201, 201,0.1)),url("./home bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .homediv
+    {
+        color: white;
+        padding-left: 20%;
+        padding-top: 52%; 
+        
+    }
+    .homediv h1
+    {
+        font-size: 20px;
+    }
+    .homediv p
+    {
+        font-size: 10px;
+    }
+}
+/* home ends */
+/* Projects starts */
+.services div{
+    margin: 40px;
+}
+.services {
+    
+    text-align: justify;
+    padding: 30px;
+    background-image: url("./services bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.services h1{
+    color: azure;
+}
+.services p{
+    color: white;
+}
+
+@media (max-width: 310px) {
+   .services{
+    font-size: 6px;
+    padding: 10px;
+   }
+   .services h1{
+    font-size: small;
+   }
+}
+/* Projects ends */
+
+/* <!-- About Me starts --> */
+.aboutus
+{
+    background-image: url("./about us.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: justify;
+}
+.aboutus div
+{
+    margin-left: 45%;
+    color: white;
+    width: 50%; 
+}
+@media (max-width: 310px){
+    .aboutus{
+        font-size: 6px;
+        height: 500px;
+    }
+}
+/* <!-- About Me ends --> */
+
+/* <!-- contact Me starts --> */
+.contactus
+{
+    background-image: url("./contact-us.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    
+}
+
+.usdiv
+{
+    
+    display: flex;
+    color: white;
+}
+.div1{
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+.div1 input{
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.div2
+{
+    text-align: left;
+    margin-left: 450px;
+    margin-top: 200px;
+    
+}
+.divp
+{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+
+}
+.divp p{
+    margin-left: 100px;
+}
+.subbutton:hover{
+background-color: rgb(165, 129, 203);
+color: black;
+transform: scale(1.2);
+}
+@media (max-width: 310px) {
+    .contactus{
+        height: 900px;
+        background-image: none;
+        background-color: rgb(63, 65, 67);
+    }
+    .usdiv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div1{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .div2{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .divp{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .divp p{
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+}
+/* <!-- contact Me ends --> */
+/* footer starts */
+.footer{
+    padding: 10px;
+    background-color: rgba(169, 169, 157, 0.842);
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding-left: 250px;
+}
+.footer p{
+    text-align: center;
+}
+@media (max-width: 310px){
+    .footer a{
+        padding-left: 10px;
+    }
+}
+/* footer ends */
